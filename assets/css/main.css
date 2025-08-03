@@ -4811,11 +4811,16 @@ body.is-preload #intro:not(.hidden) + #header + #nav {
 }
 
 
+figure {
+  position: relative; /* Essential for positioning the figcaption relative to the figure */
+}
+
 figcaption {
-  background-color: #ffffff;
-  color: #D3D3D3;
-  font-style: italic;
-  font-size: 0.7rem;
-  padding: 2px;
-  text-align: right;
+  position: absolute; /* Positions the figcaption out of the normal document flow */
+  bottom: 0;           /* Aligns the bottom edge of the figcaption with the bottom edge of the figure */
+  right: 0;            /* Aligns the right edge of the figcaption with the right edge of the figure */
+  font-size: 0.6rem;   /* Makes the text smaller than the default font size */
+  color: #cccccc;      /* Sets the text color to light grey */
+  padding: 5px;        /* Adds some spacing around the text */
+  text-align: right;   /* Aligns the text within the figcaption to the right */
 }
