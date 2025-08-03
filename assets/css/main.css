@@ -4809,3 +4809,12 @@ body.is-preload #intro:not(.hidden) + #header + #nav {
     visibility: visible;
   }
 }
+
+
+figcaption {
+  background-color: #ffffff;
+  color: #D3D3D3;
+  font-style: italic;
+  padding: 2px;
+  text-align: right;
+}
