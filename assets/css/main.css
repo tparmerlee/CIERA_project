@@ -4820,6 +4820,6 @@ figcaption {
   right: 0;            /* Aligns the right edge of the figcaption with the right edge of the figure */
   font-size: 0.6rem;   /* Makes the text smaller than the default font size */
   color: #cccccc;      /* Sets the text color to light grey */
-  padding: 1px;        /* Adds some spacing around the text */
+  padding: 2px;        /* Adds some spacing around the text */
   text-align: right;   /* Aligns the text within the figcaption to the right */
 }
