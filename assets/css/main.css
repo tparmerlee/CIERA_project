@@ -4815,6 +4815,7 @@ figcaption {
   background-color: #ffffff;
   color: #D3D3D3;
   font-style: italic;
+  font-size: 0.7rem;
   padding: 2px;
   text-align: right;
 }
